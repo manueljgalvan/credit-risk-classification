@@ -33,3 +33,23 @@ Use concise logic and creative engineering where possible. (2 points)
 **Code Comments (10 points)**
 To receive all points, your code must:
 Be well commented with concise, relevant notes that other developers can understand. (10 points)
+
+## Results of the Analysis
+
+ Below is a description of logistic regression model accuracy, precision, and recall scores that the analysis produced.
+
+ * Accuracy: The overall accuracy of the model is 0.99, indicating that it correctly classifies 99% of the instances analyzed.
+
+ * Precision
+   * Healthy Loan classified as (class 0): 1.00
+   * High-Risk Loan classified as (class 1): 0.87
+  
+ * Recall
+   * Healthy Loan classified as (class 0): 1.00
+   * High-Risk Loan classified as (class 1): 0.95
+  
+     ## Summary
+
+The logistic regression model performs very well in predicting healthy loans (class 0), achieving a precision of 1.00 and recall of 1.00. For risky loans (class 1), the model’s performance is still strong, with a precision of 0.87 and a recall of 0.95.
+
+The model is very accurate at predicting healthy loans (labeled as 0) and performs well on this category, with almost perfect accuracy in identifying these loans correctly. For high-risk loans (labeled as 1), the model does a good job too, but it's not as precise. While it can identify high-risk loans fairly well, it’s less consistent at catching every high-risk loan compared to healthy ones. This means there’s still some room to improve in recognizing high-risk loans accurately.
